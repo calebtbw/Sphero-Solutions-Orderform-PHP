@@ -1,0 +1,411 @@
+.wsorder-box .wsfirststep .nextbutton {
+  background-color: var(--sky-color);
+  color: #fff;
+  padding: 14px 35px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 0;
+  text-transform: uppercase;
+}
+.wsorder-box {
+  background-color: var(--bg-color);
+  border-radius: 2px;
+  padding: 50px 30px;
+  margin: 60px 0;
+}
+
+.wsorder-box .wsfirststep {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+.wsorder-box .wsfirststep input[type="text"] {
+  width: calc(100% - 150px);
+  background-color: #fff;
+  border: 0;
+  padding: 14px 15px;
+  font-size: 15px;
+}
+
+.wssteparea1,
+.wssteparea2 {
+  text-align: center;
+}
+
+.wssteparea {
+  margin-top: 60px;
+}
+.wssteparea1 {
+  margin-top: 0px;
+}
+
+.wsformerrors {
+  display: none;
+}
+
+#wserrormessage {
+  text-align: left;
+}
+
+.wssteps a {
+  float: right;
+  display: inline;
+  margin-top: -36px;
+  background-color: var(--sky-color);
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 8px 25px;
+  border-radius: 2px;
+  font-weight: 500;
+  border: 1px solid var(--sky-color);
+  width: 150px;
+  text-align: center;
+}
+.wssteps {
+  background-color: #071349;
+  border-color: #182769;
+  justify-content: space-between;
+  display: none;
+  margin-bottom: 6px;
+}
+
+.ws7pad {
+  padding-top: 7px;
+  color: #fff;
+}
+
+#wsclientusername {
+  font-weight: 700;
+}
+
+.wsselecttype {
+  justify-content: space-between;
+  display: flex;
+}
+.wsselecttype h4 {
+  padding-top: 25px;
+  padding-left: 30px;
+  color: #fff;
+}
+.wsselecttype a,
+.wsselecttype button {
+  background-color: var(--bs-red);
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 8px 25px;
+  border-radius: 2px;
+  font-weight: 500;
+  border: 1px solid var(--bs-pink);
+  margin: 17px;
+}
+.wsservertypename {
+  display: flex;
+  min-width: 50%;
+}
+.wsselecttype:hover {
+  background-color: #191c25;
+  padding-left: 15px;
+}
+
+.wsoptionals .item {
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  border: 1px dashed var(--sky-color);
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+}
+.wsoptionals {
+  background: 0 0;
+}
+.wsoptionals .item {
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  border: 1px dashed var(--sky-color);
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+  cursor: pointer;
+  min-height: 400px;
+}
+.wsoptionals .item > img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wsoptionals .item > img:hover {
+  opacity: 0.6;
+}
+.wsoptionals .item .info-member {
+  padding: 30px;
+}
+.wsoptionals .item .info-member h1.name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.wsoptionals .item .info-member h2.role {
+  opacity: 0.6;
+  font-size: 15px;
+  margin: 10px 0 0;
+  font-weight: 400;
+}
+.wsoptionals .item .info-member p.desc {
+  opacity: 0.6;
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.wsoptionals .item .info-member ul.social {
+  margin: 15px 0 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wsoptionals .item .info-member ul.social li {
+  margin-right: 20px;
+}
+.wsoptionals .item .info-member ul.social li:last-child {
+  margin-right: 0;
+}
+.wsoptionals .item .info-member ul.social li a img {
+  height: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wsoptionals .item .info-member ul.social li a img:hover {
+  opacity: 0.6;
+}
+.wsoptionals .item:hover > img {
+  opacity: 0.6;
+}
+.wsoptionals .apply-job {
+  background-color: var(--sky-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 35px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: table;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wsoptionals .apply-job:hover {
+  background-color: var(--sky-color-hvr);
+}
+.wsoptionals h2 {
+  text-align: center;
+}
+
+.wsoptionals .form-check {
+  text-align: center;
+  padding-left: 0px;
+  margin-bottom: 42px;
+}
+.wsoptionals i {
+  font-size: 39px;
+  margin-bottom: 35px;
+  color: #abff3c;
+}
+
+.wsoptionals .fa-circle {
+  color: #c70a0a;
+}
+
+.ws5step i {
+  font-size: 35px;
+  color: #abff3c;
+  padding: 20px;
+}
+.wsoptionactive {
+  background-color: #0156cc !important;
+}
+.wscycleactive {
+  background-color: #0156cc !important;
+}
+.wsoptionalsaactive {
+  background-color: #0156cc !important;
+}
+.wsdomains21ctive {
+  background-color: #0156cc !important;
+}
+
+.opnextbutton,
+.op2nextbutton,
+.op3nextbutton,
+.opfinalnextbutton {
+  background-color: var(--sky-color);
+  color: #fff;
+  padding: 14px 35px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.wsopnext {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ws5step .wsselecttype button {
+  max-height: 45px;
+}
+.ws5step .wsselecttype {
+  color: #e4d8d8;
+  cursor: pointer;
+  border: 1px dashed var(--sky-color);
+}
+.ws5step .fa-circle {
+  color: #c70a0a;
+}
+
+.wscycles .item {
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  border: 1px dashed var(--sky-color);
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+}
+.wscycles {
+  background: 0 0;
+}
+.wscycles .item {
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  border: 1px dashed var(--sky-color);
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.wscycles .item > img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wscycles .item > img:hover {
+  opacity: 0.6;
+}
+.wscycles .item .info-member {
+  padding: 30px;
+}
+.wscycles .item .info-member h1.name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.wscycles .item .info-member h2.role {
+  opacity: 0.6;
+  font-size: 15px;
+  margin: 10px 0 0;
+  font-weight: 400;
+}
+.wscycles .item .info-member p.desc {
+  opacity: 0.6;
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.wscycles .item .info-member ul.social {
+  margin: 15px 0 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wscycles .item .info-member ul.social li {
+  margin-right: 20px;
+}
+.wscycles .item .info-member ul.social li:last-child {
+  margin-right: 0;
+}
+.wscycles .item .info-member ul.social li a img {
+  height: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wsoptionals .item .info-member ul.social li a img:hover {
+  opacity: 0.6;
+}
+.wscycles .item:hover > img {
+  opacity: 0.6;
+}
+.wscycles .apply-job {
+  background-color: var(--sky-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 35px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: table;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wscycles .apply-job:hover {
+  background-color: var(--sky-color-hvr);
+}
+.wscycles h2 {
+  text-align: center;
+}
+
+.wscycles .form-check {
+  text-align: center;
+  padding-left: 0px;
+  margin-bottom: 42px;
+}
+.wscycles i {
+  font-size: 39px;
+  margin-bottom: 35px;
+  color: #abff3c;
+}
+
+.wscycles .fa-circle {
+  color: #c70a0a;
+}
+
+.wssteparea6 small {
+  font-size: 18px;
+}
+.wsajaxloader {
+  display: none;
+}
+.wsoptionsrows {
+  background-color: #10131f;
+  border-color: #182769;
+  margin-bottom: 5px;
+}
+.wsserverssubs {
+  padding-bottom: 22px;
+  text-align: left;
+  padding-left: 16px;
+}
+.wsserverssubs .btn {
+  margin-right: 7px;
+  margin-bottom: 10px;
+
+}

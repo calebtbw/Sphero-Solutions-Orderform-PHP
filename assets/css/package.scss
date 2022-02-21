@@ -1,0 +1,258 @@
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.m-t-b-1 {
+  margin: 10px 0;
+}
+
+.package-details {
+  text-align: center;
+  margin-top: 70px;
+
+  img {
+    height: 70px;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  h3 {
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+  }
+
+  .package-features {
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .package-price {
+    color: #2AF598;
+    margin-left: 6px;
+  }
+
+  .package-location {
+    span {
+      opacity: 0.7;
+    }
+
+    a {
+      color: var(--sky-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.wssteparea {
+  h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+.wsorder-box {
+  .ws7pad {
+    padding-top: 0;
+    display: inline-block;
+  }
+
+  .wssteps {
+    background-color: transparent;
+    border: 1px dashed var(--sky-color);
+    margin-bottom: 30px;
+    align-items: center;
+    min-height: 58px;
+
+    a {
+      display: inline-block;
+      margin-top: -9px;
+      background-color: var(--sky-color);
+      color: #fff;
+      font-size: 13px;
+      text-decoration: none;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      padding: 10px 21px;
+      border-radius: 2px;
+      font-weight: 500;
+      border: 1px solid var(--sky-color);
+      width: auto;
+      text-align: center;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        background-color: var(--sky-color-hvr);
+      }
+    }
+  }
+
+  .wsfirststep {
+    margin-top: 30px;
+
+    input,
+    button {
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .nextbutton {
+      font-weight: 600;
+    }
+  }
+}
+
+.wssteparea2 {
+  .wsoptionsrows {
+    background-color: transparent;
+    margin-bottom: 15px;
+
+    .wsselecttype {
+      background-color: #122163;
+      transition: all .3s ease-in-out;
+
+      h4 {
+        transition: all .3s ease-in-out;
+      }
+
+      &:hover {
+        background-color: #16266d;
+        padding: 1rem;
+
+        h4 {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+.wsselecttype a,
+.wsselecttype button {
+  background-color: var(--sky-color);
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 35px;
+  border-radius: 2px;
+  font-weight: 500;
+  border: 1px solid var(--sky-color);
+  margin: 17px;
+}
+
+.wsoptionals .item {
+  min-height: 300px;
+  text-align: center;
+}
+
+.wsoptionals .fa-circle,
+.ws5step .fa-circle,
+.wscycles .fa-circle {
+  color: var(--sky-color-hvr);
+}
+
+.form-control {
+  padding: 10px;
+}
+
+.wsselecttype:hover {
+  background-color: #16266d;
+  padding: 1rem;
+}
+
+.wsservertypename {
+  align-items: center;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wsorder-box {
+    padding: 50px 20px;
+  }
+
+  .wsorder-box .wsfirststep {
+    width: 100%;
+  }
+
+  .wsselecttype {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wsservertypename {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wsselecttype h4 {
+    padding-left: 0;
+  }
+
+  .wsorder-box .wssteps a {
+    display: table;
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.access-type-blocks {
+  .item {
+    min-height: 360px;
+  }
+}
+
+.btns-website {
+  background-color: #51e391;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 2px;
+
+  a {
+    color: #1d613b;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all .3s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+      display: block;
+      margin: 10px;
+    }
+
+    i {
+      padding-right: 5px;
+    }
+
+    &:hover {
+      color: #338457;
+    }
+  }
+}
+
+.wsservertypename img {
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+}
